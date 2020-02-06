@@ -1,0 +1,213 @@
+body{line-height:1; font-family: 'Lato', sans-serif; font-weight: 300;}
+h2{font-size: 21px; font-family: 'Prata', serif;}
+h5{font-family: 'Prata', serif;}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+
+body,html {
+    background-color: #FFF;
+    margin:0;
+    padding:0;
+}
+header{
+    width: 100%;
+}
+#head { 
+    width: 100%;
+    background-image:url("/images/tea.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    border: none;
+    height: 500px;
+    color: #FFF;
+    text-align: left;
+    margin: 0px;
+    
+}
+#headtext {
+    font-size: 90px;
+    vertical-align: 90%;
+    font-family: 'Prata', serif;
+    padding-left: 50px;
+}
+#description{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+#one{
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction:alternate;
+}
+#two{
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction:alternate;
+    animation-delay: 300ms;
+}
+#three{
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction:alternate;
+    animation-delay: 600ms;
+}
+#four{
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction:alternate;
+    animation-delay: 900ms;
+}
+#five{
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction:alternate;
+    animation-delay: 1200ms;
+}
+#six{
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction:alternate;
+    animation-delay: 1500ms;
+}
+@keyframes animation{
+    0% {opacity: 1; top: 300px;}
+    100% {opacity: 0; top: 0px;}
+}
+header {
+    background: #FFF;
+    padding: 0px 30px;
+    width: 80%;
+    margin: auto;
+}
+nav {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 5px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #444;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+}
+nav ul li a:hover {
+	background: #F5D6C6;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0px;
+}
+nav ul {
+    list-style: none;
+}
+#pagecontents {
+    width: 90%;
+    margin: auto;
+    border: none;
+}
+main {
+	float: left;
+	width: 65%;
+}
+aside {
+	float: right;
+    width: 25%;
+    color: #333;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+article {
+    border-bottom: 1px solid #999;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    word-spacing: 2px;
+    line-height: 20px;
+
+}
+article h2 {
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+aside > div {
+	margin: 20px auto;
+	background: #FFF;
+    border-bottom: 1px solid #999;
+    min-height: 100px;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+body > section {
+    margin: 0;
+    padding: 30px 0px;
+    color: #333;
+    border-bottom: 1px solid #999;
+}
+
+@media screen and (max-width: 2000px) {
+	body > section {
+		padding: 30px 0px;
+	}
+}
+@media screen and (max-width: 600px) {
+	
+	aside {
+		float: none;
+		width: 100%;
+	}
+    main {
+		float: none;
+		width: 100%;
+	}
+}
+.accordion__button{
+    margin-top: 25px;
+    display: block;
+    width: 20%;
+    padding: 15px;
+    border-style: solid;
+    outline: none;
+    cursor: pointer;
+    background: white;
+    color: black;
+    text-align: left;
+    transition: background 0.2s;
+    border-radius: 10px;
+}
+.accordion__button::after{
+    content: '\25be';
+    float:right;
+    transform: scale(1.5);
+}
+.accordion__button--active{
+    background: #F5D6C6;
+}
+.accordion__button--active::after{
+    content: '\25b4';
+}
+.accordion__content{
+    overflow: hidden;
+    max-height: 155px;
+    transition: max-height 0.2s;
+
+    padding: 0 15px;
+    font-family: 'Lato', sans-serif;
+    background: white;
+}

@@ -1,0 +1,69 @@
+#header {
+    font-size: 60px;
+    font-family: 'Prata', serif;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    display: block;
+    margin-left: 20%;
+
+}
+#date, #author{
+    font-size: 15px;
+}
+#ki{
+    background-image: url("/images/ki.jpg");
+    margin:auto;
+    width: 75%;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+#kaminski{
+    background-image: url("/images/kaminski.jpg");
+    margin:auto;
+    width: 75%;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+#tim{
+    background-image: url("/images/tim.jpg");
+    margin:auto;
+    width: 75%;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+#trenton{
+    background-image: url("/images/trenton.jpg");
+    margin:auto;
+    width: 75%;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+#caption{
+    font-size: 15px;
+    font-weight: 50;
+    display: block;
+    margin-left: 12.5%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin: auto;
+}
+article{
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+}
